@@ -1,5 +1,6 @@
-body {
+* {
     margin: 0;
+    padding: 0;
 }
 
 .main_container {
@@ -7,22 +8,20 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 94vh;
-    padding: 0;
+    min-height: 96vh;
 }
 
 .card {
     background-color: hsl(0, 0%, 100%);
-    border-radius: 9px;
+    border-radius: 1rem;
     width: 320px;
     height: 496px;
 }
 
 .card_qr {
-    background-image: url(../img/image-qr-code.png);
-    background-size: contain;
+    background: url(../img/image-qr-code.png) round;
     margin: 16px;
-    border-radius: 9px;
+    border-radius: 1rem;
     width: 288px;
     height: 288px;
 }
@@ -34,16 +33,18 @@ body {
 .card_title {
     text-align: center;
     font-family: 'Outfit', sans-serif;
-    font-size: 15px;
+    font-size: 1.2rem;
     font-weight: 700;
+    padding-top: 12px;
 }
 
 .card_text {
     color: hsl(220, 15%, 55%);
     text-align: center;
-    font-size: 15px;
+    font-size: 0.9rem;
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
+    margin-top: 16px;
 }
 
 .footer {
@@ -51,15 +52,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    font-size: 11px;
-    height: 6vh;
-}
-
-.footer p {
-    margin: 0;
-    padding: 0;
-}
-
-.footer a {
     color: hsl(228, 45%, 44%);
+    font-size: 0.6rem;
+    min-height: 4vh;
 }
