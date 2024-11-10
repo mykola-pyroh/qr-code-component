@@ -1,3 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #68778d;
+  height: 94svh;
+  width: 100%;
+}
+
+.card-container {
+  background-color: #ffffff;
+  height: 500px;
+  width: 320px;
+}
+
+.image-container__image {
+  height: 288px;
+  width: 288px;
+}
 
 /*# sourceMappingURL=styles.css.map */
