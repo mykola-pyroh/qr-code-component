@@ -6,6 +6,8 @@
 
 body {
   background-color: #d5e1ef;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
 }
 
 main {
@@ -20,6 +22,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 24px;
   border-radius: 20px;
   background-color: #ffffff;
   padding: 16px 16px 40px;
@@ -43,7 +46,7 @@ main {
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin: 24px 0 16px;
+  gap: 16px;
   padding: 0 16px 0;
   height: 132px;
   width: 288px;
@@ -51,23 +54,33 @@ main {
 
 .description-container__description-header {
   font-size: 22px;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 120%;
   letter-spacing: 0;
   color: #1f314f;
 }
 .description-container__description-text {
-  font-size: 16px;
+  font-weight: 500;
   line-height: 140%;
   letter-spacing: 0.2;
+  color: #68778d;
 }
 
-footer {
+.footer-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 8svh;
+}
+.footer-container__challenge-p {
+  font-size: 12px;
+}
+.footer-container__coded-by-p {
+  font-size: 12px;
+}
+.footer-container a:visited, .footer-container a {
+  color: #3e52a3;
 }
 
 /*# sourceMappingURL=styles.css.map */
